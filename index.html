@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/output.css">
+</head>
+<body>
+    <header class="shadow-sm bg-white">
+        <div class="container flex items-center justify-between gap-4 py-3 min-w-0">
+            <button class="flex-shrink-0 p-2 text-gray-500 hover:text-primary transition-colors" aria-label="Open menu" data-drawer-open>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+            </button>
+            <div class="mr-8 flex-shrink-0 min-w-fit">
+                <h1 class="text-3xl font-medium text-center whitespace-nowrap">Super <span class="hidden sm:inline"><br/></span> IPTV</h1>
+            </div>
+            <nav class="flex-1 min-w-0 hidden lg:block">
+                <ul class="flex gap-4 flex-nowrap items-center overflow-x-auto hide-scrollbar">
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">IPTV SUBSCRIPTION</a></li>
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">ADULT IPTV</a></li>
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">ADULT IPTV MULTI</a></li>
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">MULTI CONNECTIONS SUBSCRIPTION</a></li>
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">CHANNELS LIST</a></li>
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">IPTV RESELLERS</a></li>
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">OPERATION GUIDE</a></li>
+                    <li><a href="#" class="text-sm font-medium text-gray-700 hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary transition-all duration-200 whitespace-nowrap">Login</a></li>
+                </ul>
+            </nav>
+            <!-- Search Icon in Header -->
+            <button class="ml-4 flex-shrink-0 p-2 text-gray-500 hover:text-primary transition-colors" aria-label="Search" data-search-open>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </button>
+            <!-- Cart Icon in Header -->
+            <button class="ml-2 flex-shrink-0 p-2 text-gray-500 hover:text-primary transition-colors" aria-label="Cart" data-cart-open>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            </button>
+        </div>
+    </header>
+    <div class="space-y-4">
+        <div class="bg-secondary text-black py-12 px-4">
+            <div class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-center items-center">
+                <div class="flex-shrink-0">
+                    <img src="https://www.superiptvs.com/wp-content/uploads/2024/01/cropped-IPTV-150x150.png" alt="Smart IPTV Logo" class="h-20 w-auto mx-auto" />
+                </div>
+                <div>
+                    <h2 class="text-3xl font-semibold">OFFICIAL LEGAL</h2>
+                    <h3 class="text-3xl font-semibold">CERTIFICATION</h3>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-semibold">EXTRA 50% OFF</h2>
+                    <p class="text-sm">ONLINE ONLY, HURRY UP END IN:</p>
+                </div>
+                <div class="flex space-x-4 justify-center">
+                    <div>
+                        <div class="text-3xl font-semibold">00</div>
+                        <div class="text-sm">Days</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-semibold">00</div>
+                        <div class="text-sm">Hours</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-semibold">00</div>
+                        <div class="text-sm">Minutes</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-semibold">00</div>
+                        <div class="text-sm">Seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <figure>
+            <img src="https://www.superiptvs.com/wp-content/uploads/2024/01/IPTV-Provider-Service-_2_.webp" alt="Smart IPTV Logo" class="w-full max-h-[70vh] object-cover" />
+        </figure>
+    </div>
+    <div class="container">
+        <div class="py-12 px-4 text-center">
+            <h1 class="text-2xl sm:text-3xl font-bold text-black uppercase">
+                THE BEST IPTV SUBSCRIPTION PROVIDER
+            </h1>
+            <h2 class="text-xl sm:text-2xl font-semibold text-orange-600 mt-2">
+                Customer Renewal Rate Is As high As 99%
+            </h2>
+
+            <div class="mt-8 flex justify-center">
+                <img
+                        src="https://www.superiptvs.com/wp-content/uploads/2023/03/best-iptv.webp"
+                        alt="Best IPTV"
+                        class="w-72 sm:w-80"
+                />
+            </div>
+
+            <p class="mt-6 text-gray-800 text-base sm:text-lg">
+                Super IPTV is proud to partner with the Government’s Affordable Connectivity Program.
+            </p>
+
+            <p class="mt-4 text-gray-700 text-sm sm:text-base">
+                Enjoy the best IPTV Service at affordable prices! Sign up now and get access to over 16000<br />
+                Live TV Channels + VOD that works on all of your favorite devices.
+            </p>
+
+            <ul class="mt-6 text-left inline-block text-gray-800 text-sm sm:text-base leading-relaxed">
+                <li>✓ Thousands of HD Television Channels</li>
+                <li>✓ Movies and TV Shows Update weekly</li>
+                <li>✓ High-Quality Video Streaming</li>
+                <li>✓ 24/7 Customer Support</li>
+            </ul>
+
+            <div class="mt-6">
+                <a href="#"
+                   class="bg-amber-500 text-white font-medium px-6 py-4 rounded hover:bg-amber-600 transition">
+                    Subscribe Now
+                </a>
+            </div>
+        </div>
+        <div class="mt-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-black mb-8 text-center uppercase">MORE THAN 100,000 PEOPLE SUBSCRIBED AND HAPPY WITH IT</h2>
+            <div class="border-t border-gray-200 mb-8"></div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send-icon lucide-send w-14 mx-auto"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+                    <h3 class="mt-4 text-xl font-semibold">Anti Freeze™ 3.0</h3>
+                    <p class="mt-2 text-gray-700">Using Anti-Freeze Technology, You do not need to worry about the stability of the server.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone-icon lucide-smartphone w-14 mx-auto"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                    <h3 class="mt-4 text-xl font-semibold">Watch Any Device!</h3>
+                    <p class="mt-2 text-gray-700">Our IPTV service works on any device such as TVs, Smartphones, FireStick, Mag…</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-messages-square-icon lucide-messages-square w-14 mx-auto"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/><path d="M18 9h2a2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg>
+                    <h3 class="mt-4 text-xl font-semibold">Live Support 24/7</h3>
+                    <p class="mt-2 text-gray-700">We offer in-depth tutorials and client support to make installation, quick and simple.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laptop-icon lucide-laptop w-14 mx-auto"><path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z"/><path d="M20.054 15.987H3.946"/></svg>
+                    <h3 class="mt-4 text-xl font-semibold">FULL 4K/HD/FHD QUALITY</h3>
+                    <p class="mt-2 text-gray-700">Most our TV channels are available in HD quality and some of them are in 4K.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-atom-icon lucide-atom w-14 mx-auto"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"/><path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z"/></svg>
+                    <h3 class="mt-4 text-xl font-semibold">Thousands Of Channels</h3>
+                    <p class="mt-2 text-gray-700">Your IPTV subscription offers you international IPTV Channels from around the world, including all major channels from the world.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock9-icon lucide-clock-9 w-14 mx-auto"><path d="M12 6v6H8"/><circle cx="12" cy="12" r="10"/></svg>
+                    <h3 class="mt-4 text-xl font-semibold">Auto and Free Update</h3>
+                    <p class="mt-2 text-gray-700">We usually update and add new TV Channels and VODs to the service. Once you subscribe, you will receive any update for free during your service.</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-16">
+            <h2 class="text-2xl sm:text-3xl font-bold text-black text-center mb-2 uppercase">7-DAY MONEY BACK GUARANTEE</h2>
+            <div class="text-center font-semibold mb-2">50% OFF TODAY</div>
+            <div class="flex justify-center gap-8 text-center mb-8">
+                <div>
+                    <div class="text-3xl font-bold">00</div>
+                    <div class="text-sm">Days</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">00</div>
+                    <div class="text-sm">Hours</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">00</div>
+                    <div class="text-sm">Minutes</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">00</div>
+                    <div class="text-sm">Seconds</div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-2 Year</div>
+                    <div class="text-5xl font-bold mb-2">$109.99</div>
+                    <div class="text-gray-500 mb-4">Original price $219.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels & Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-1 Year <span class="block text-xs text-primary font-bold">MOST POPULAR</span></div>
+                    <div class="text-5xl font-bold mb-2">$65.99</div>
+                    <div class="text-gray-500 mb-4">Original price $131.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels & Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-6 Month</div>
+                    <div class="text-5xl font-bold mb-2">$49.99</div>
+                    <div class="text-gray-500 mb-4">Original price $99.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels & Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-2 Year</div>
+                    <div class="text-5xl font-bold mb-2">$109.99</div>
+                    <div class="text-gray-500 mb-4">Original price $219.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels & Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-1 Year <span class="block text-xs text-primary font-bold">MOST POPULAR</span></div>
+                    <div class="text-5xl font-bold mb-2">$65.99</div>
+                    <div class="text-gray-500 mb-4">Original price $131.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels & Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-6 Month</div>
+                    <div class="text-5xl font-bold mb-2">$49.99</div>
+                    <div class="text-gray-500 mb-4">Original price $99.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels & Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+
+                <!-- third Row: 3 cards -->
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-3 Month</div>
+                    <div class="text-5xl font-bold mb-2">$29.99</div>
+                    <div class="text-gray-500 mb-4">Original price $59.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels & Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">Standard-1 Month</div>
+                    <div class="text-5xl font-bold mb-2">$10.99</div>
+                    <div class="text-gray-500 mb-4">Original price $21.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto invisible"></div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">Standard-3 Month</div>
+                    <div class="text-5xl font-bold mb-2">$24.99</div>
+                    <div class="text-gray-500 mb-4">Original price $49.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="border border-gray-200 rounded-sm shadow-sm p-8 flex flex-col items-center bg-white w-full max-w-md mx-auto">
+                    <div class="text-primary text-lg font-medium mb-2">XXX-1 Month</div>
+                    <div class="text-5xl font-bold mb-2">$13.99</div>
+                    <div class="text-gray-500 mb-4">Original price $27.98</div>
+                    <hr class="w-full mb-4 text-gray-200" />
+                    <ul class="text-left text-gray-700 space-y-1 mb-6">
+                        <li>• 12,000 Channels</li>
+                        <li><b>• With Adult Channels/Movies</b></li>
+                        <li>• Over 86,000 Movies & TV Shows</li>
+                        <li>• 14,000 TV Shows & Series</li>
+                        <li>• 4K,2K,FHD,HD & SD Channels</li>
+                        <li>• Premium Channels</li>
+                        <li>• All Applications</li>
+                        <li>• Watch Online Live TV 24/7</li>
+                        <li>• Free Updates</li>
+                        <li>• TV Guide (EPG)</li>
+                        <li>• Support All Devices</li>
+                        <li>• 24/7 support</li>
+                        <li>• AntiFreeze Technology</li>
+                        <li>• 99.9% Uptime</li>
+                        <li>• 2024 Best IPTV Service</li>
+                    </ul>
+                    <a href="#" class="bg-amber-500 text-white font-medium px-8 py-3 rounded hover:bg-amber-600 transition">Buy Now</a>
+                </div>
+                <div class="invisible"></div>
+            </div>
+        </div>
+        <div class="container my-16">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <img src="https://www.superiptvs.com/wp-content/uploads/2023/03/iptv-subscription.webp" alt="Why Choose Us" class="w-full h-auto rounded-md object-cover" />
+            </div>
+            <div>
+              <h2 class="text-3xl font-semibold mb-6">Why Choose Us?</h2>
+              <ul class="space-y-3 text-lg text-gray-800">
+                <li>✔ Most stable app server and engineer team over 4 years.</li>
+                <li>✔ You Get 16,000 Ordinary & Premium Channels Instantly.</li>
+                <li>✔ You Get Over 86,000 Movies & 14,000 TV Shows (VOD’s).</li>
+                <li>✔ No More Expensive Cable Bills.</li>
+                <li>✔ Solid IPTV Service, Without Buffering and Freezing (Stable Internet Required).</li>
+                <li>✔ Our IPTV Service is Always Up 99,99 % of the Time!</li>
+                <li>✔ Solid IPTV Service, Without Buffering and Freezing (Stable Internet Required).</li>
+                <li>✔ You Get 100% Satisfaction Guarantee.</li>
+                <li>✔ You Get the Best IPTV Quality/Price In The Market.</li>
+                <li>✔ You Get 24/7 Customer Service Via WhatsApp or Ticketing System.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container my-16">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <img src="https://www.superiptvs.com/wp-content/uploads/2023/03/multidevices-Xnet-iptv-1.webp" alt="Multi Devices" class="w-full h-auto rounded-md object-contain" />
+            </div>
+            <div>
+              <h2 class="text-3xl font-semibold mb-4">Advantages of Multi Connections</h2>
+              <p class="text-gray-800 mb-6">Many of our competitors have their Servers based in India. With a multiScreen account, you will be able to enjoy TV on many devices at the same time without any interruption. Our MultiScreen accounts are not IP locked, which means you even can have one account in one house and another in a different house or country. You can set up an account on a smart TV and set up the same account with the same features on your smartphone and enjoy watching your favorite programmes or games.<br><br>&amp; other Asian markets – our Servers are all based in Europe, to give you the fastest stream times and consistently high quality of service.</p>
+              <div class="flex flex-col sm:flex-row gap-2">
+                <a href="#" class="bg-amber-500 text-white font-medium px-6 py-3 rounded hover:bg-amber-600 transition">MULTI CONNECTIONS ADULT IPTV</a>
+                <a href="#" class="bg-amber-500 text-white font-medium px-6 py-3 rounded hover:bg-amber-600 transition">Multi Connections Standard</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container my-16">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="order-2 md:order-1">
+              <h2 class="text-3xl font-semibold mb-4">USA & European-based Servers</h2>
+              <p class="text-gray-800 mb-6">USA &amp; European-based Servers<br>Many of our competitors have their servers based in India &amp; other Asian markets – our servers are all based in Europe and some of them are based in the USA, to give you the fastest stream time and a high quality of service.</p>
+              <a href="#" class="bg-amber-500 text-white font-medium px-6 py-3 rounded hover:bg-amber-600 transition">LIST OF CHANNELS</a>
+            </div>
+            <div class="order-1 md:order-2">
+              <img src="https://www.superiptvs.com/wp-content/uploads/2022/12/image0.webp" alt="Servers" class="w-full h-auto rounded-md object-contain" />
+            </div>
+          </div>
+        </div>
+    </div>
+<!-- Drawer Overlay -->
+<div id="drawer-overlay" class="fixed inset-0 bg-black/50 z-40 hidden" data-drawer-overlay></div>
+<!-- Drawer -->
+<aside id="drawer" class="fixed top-0 left-0 h-full w-full max-w-full bg-white shadow-lg z-50 transform -translate-x-full transition-transform duration-300 ease-in-out flex flex-col" data-drawer>
+  <div class="flex items-center justify-end px-4 py-4 border-b border-gray-200">
+    <button class="text-3xl text-gray-500 hover:text-primary transition-colors" aria-label="Close drawer" data-drawer-close>
+      &times;
+    </button>
+  </div>
+  <nav class="flex-1 px-6 py-4">
+    <ul class="space-y-4 text-gray-700 text-xl md:text-lg font-medium">
+      <li><a href="#" class="hover:border-b-2 border-primary transition-all">MY ACCOUNT</a></li>
+      <li><a href="#" class="hover:border-b-2 border-primary transition-all">IPTV SUBSCRIPTION</a></li>
+      <li><a href="#" class="hover:border-b-2 border-primary transition-all">ADULT IPTV</a></li>
+      <li><a href="#" class="hover:border-b-2 border-primary transition-all">ADULT IPTV MULTI CONNECTIONS</a></li>
+      <li><a href="#" class="hover:border-b-2 border-primary transition-all">MULTI CONNECTIONS SUBSCRIPTION</a></li>
+      <li><a href="#" class="hover:border-b-2 border-primary transition-all">CHANNELS LIST</a></li>
+      <li><a href="#" class="hover:border-b-2 border-primary transition-all">IPTV RESELLERS</a></li>
+      <li class="group">
+        <a href="#" class="hover:border-b-2 border-primary transition-all flex items-center w-fit">OPERATION GUIDE
+          <svg class="ml-2 w-4 h-4 text-gray-400 group-hover:text-primary transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
+        <ul class="hidden group-hover:block mt-2 ml-6 space-y-2">
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation Guide: Best Iptv For Firestick 2022</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation Guide: Instructions for Smart TV Samsung / LG</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation guide Android (Smartphone, Android Box)</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation guide Apple (iPhone, iPad, Apple TV)</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation guide Android TV (Perfect Player)</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation Guide: PC / MAC (Logiciel VLC)</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation guide: STB emulator</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation Guide: MAG 250, 254, 256</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation Guide: KODI version 16 or lower</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation guide KODI (XBMC) version 17 et plus</a></li>
+          <li><a href="#" class="block text-gray-700 hover:text-primary transition">Operation guide: ENIGMA2 / Dreambox / Vu +</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</aside>
+
+<!-- Search Drawer -->
+<div id="search-drawer" class="fixed top-0 left-0 right-0 h-[40vh] bg-white z-50 flex flex-col items-center justify-center transform -translate-y-full transition-transform duration-300 ease-in-out" data-search-drawer>
+  <button class="absolute top-6 right-8 text-3xl text-gray-400 hover:text-primary transition-colors" aria-label="Close search" data-search-close>&times;</button>
+  <form class="w-full max-w-xl mx-auto flex items-center justify-center mt-16">
+    <svg class="w-6 h-6 text-gray-400 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <input type="text" placeholder="Search products..." class="flex-1 text-3xl bg-transparent border-0 border-b-2 border-gray-400 focus:border-primary focus:ring-0 outline-none placeholder-gray-400" />
+  </form>
+</div>
+<!-- Cart Sidebar -->
+<aside id="cart-sidebar" class="fixed top-0 right-0 h-full w-80 max-w-full bg-white shadow-lg z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col" data-cart-sidebar>
+  <div class="flex items-center justify-between px-4 py-4 border-b border-gray-200">
+    <span class="text-lg font-medium">Cart</span>
+    <button class="text-3xl text-gray-400 hover:text-primary transition-colors" aria-label="Close cart" data-cart-close>&times;</button>
+  </div>
+  <div class="flex-1 flex flex-col items-center justify-center px-4 py-8">
+    <div class="rounded-full bg-gray-100 w-20 h-20 flex items-center justify-center mb-6">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+    </div>
+    <div class="text-gray-700 mb-6">No products in the cart.</div>
+    <button class="border border-gray-700 px-8 py-3 rounded transition hover:bg-gray-100">Continue Shopping</button>
+  </div>
+</aside>
+<!-- Footer Section -->
+<footer class="border-t mt-16 pt-12 pb-8 bg-white border-gray-200">
+  <div class="container">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- COMPANY -->
+      <div>
+        <div class="uppercase text-sm font-semibold mb-4 tracking-widest">Company</div>
+        <ul class="space-y-2 text-gray-800">
+          <li>About Us</li>
+          <li>Shipping Policy</li>
+          <li>Privacy Policy</li>
+          <li>Refund Policy</li>
+          <li>Terms of Service</li>
+          <li>Contact Us</li>
+          <li>Channels</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
+      <!-- INSTRUCTION -->
+      <div>
+        <div class="uppercase text-sm font-semibold mb-4 tracking-widest">Instruction</div>
+        <ul class="space-y-2 text-gray-800">
+          <li>Operation Guide: Best Iptv For Firestick 2022</li>
+          <li>Operation Guide: Instructions for Smart TV Samsung / LG</li>
+          <li>Operation guide Apple (iPhone, iPad, Apple TV)</li>
+          <li>Operation guide: Android (Smartphone, Android Box)</li>
+          <li>Operation Guide: PC / MAC (Logiciel VLC)</li>
+          <li>Operation guide Android TV (Perfect Player)</li>
+          <li>Operation guide: STB emulator</li>
+          <li>Operation guide KODI (XBMC) version 17 et plus</li>
+          <li>Operation guide: ENIGMA2 / Dreambox / Vu +</li>
+          <li>Operation Guide: KODI version 16 or lower</li>
+          <li>Operation Guide: MAG 250, 254, 256</li>
+        </ul>
+      </div>
+      <!-- CONTACT -->
+      <div>
+        <div class="uppercase text-sm font-semibold mb-4 tracking-widest">Contact</div>
+        <div class="text-gray-800 mb-4">Official Service E-mail: superiptvs6@gmail.com</div>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row md:justify-end items-center mt-12 gap-4">
+      <div class="flex gap-2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" class="h-6" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" class="h-6" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Maestro_2016.svg" alt="Maestro" class="h-6" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" class="h-6" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Discover_Card_logo.svg" alt="Discover" class="h-6" />
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="drawer.js"></script>
+</body>
+</html>
